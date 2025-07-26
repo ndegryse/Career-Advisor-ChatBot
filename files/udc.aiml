@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>Hello there! My name is CoCo. I will be your
+    virtual assistant today. My job is to help you find a career path that best 
+    fits you in the world of technology! 
+    Please say "continue" when you are ready to proceed.</template>
+  </category>
+  
+  <category>
+    <pattern>continue</pattern>
+    <template>Great! Lets start by figuring out your interests!
+    Are you a gamer and interested in the world of gaming? Do you find securing 
+    networks and servers to be interesting? How about building websites for 
+    businesses? Do you find Analyzing data statistics to be more of your 
+    interest? Or do you like coding in SQL and administrating a database?
+    Please respond with one option of "gaming", "security", "websites", "analysis", or 
+    "administrating".</template>
+  </category>
+  
+  <category>
+      <pattern>administrating</pattern>
+      <template>An interest in administration will lead you down the path of
+      being a Database Administrator. You are responsible for the proper placement
+      of data, being that it is stored, retrieved, and secured correctly! This 
+      career path plays a cruitial role in all businesses! If you would like to 
+      hear the options again please say "continue" if not say "goodbye".</template>
+  </category>
+  
+  <category>
+      <pattern>analysis</pattern>
+      <template>If you are interested in analysis, becoming a Data Scientist
+      might just be the path for you! A data scientist studies business data
+      to optimize resources and adapt for constant growth. Looking at numbers all 
+      day and developing algorithms is what its all about! If you would like to hear
+      the options again please say "continue" if not say "goodbye".</template>
+  </category>
+  
+  <category>
+      <pattern>websites</pattern>
+      <template>Web Development is a fantastic career path. Every business
+      needs one and you creativity can run wild! They are responsible for
+      front end development and making the webpage as user friendly as possible.
+      Some might say a functional website is the backbone of a business! If you
+      would like to hear the options again please say "continue" if not say 
+      "goodbye".</template>
+  </category>
+  
+  <category>
+      <pattern>security</pattern>
+      <template>Security is my personal favorite! You will be looking at the
+      Information Security Analyst path. This path involves protecting an
+      organizations computer networks and data from cyberattacks and data 
+      breaches! If you would like to hear the options again please say 
+      "continue" if not say "goodbye".</template>
+  </category>
+  
+  <category>
+      <pattern>gaming</pattern>
+      <template>Oh more of a gamer I see! Sounds like you would like
+      game development. There are multiple paths you can take in the world
+      of gaming. Specifically you could look into being a Gameplay Programmer,
+      or a Graphics Programmer. If you would like more information on
+      either of these topics please respond with either "Gameplay Programmer" or
+      "Graphics Programmer".</template>
+  </category>
+  
+  <category>
+      <pattern>Graphics Programmer</pattern>
+      <Template>A Graphics programmer specifically deals with visual aspects
+      of the game such as rendering, shaders, and special effects. You goal would
+      be to optimize performance for smooth gameplay! If you would like to hear
+      the options again please say "continue" if not say "goodbye".</Template>
+  </category>
+  
+  <category>
+    <pattern>Gameplay Programmer</pattern>
+    <template>A Gameplay programmer focuses on game mechanics, player controls
+    and overall game behavior. You will need strong knowledge in C++ or C#! 
+    If you would like to hear the options again please say "continue" if not 
+    say "goodbye".
+    </template>
+  </category>
+  
+  <category>
+      <pattern>goodbye</pattern>
+      <template>
+          Goobye and fairwell! I wish you the best of luck on your chosen career
+          path! I hope I helped you find the right one!
+      </template>
+  </category>
+</aiml>
